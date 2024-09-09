@@ -1,0 +1,187 @@
+body {
+    background-color: #1f2937;
+}
+
+ul {
+list-style-type: none;
+display: flex;
+gap: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    padding: 0 200px;
+}
+
+.header,
+.footer,
+.container1 {
+    background-color: #1f2937;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 200px;
+}
+
+.container1text {
+    color: white;
+    max-width: 500px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: white;
+}
+
+.infoheader {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+.cardcontainer {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.holder {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: #3765ad;
+    flex-direction: row;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.cardsub {
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    padding-top: 10px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+
+#quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    text-align: left;
+    padding: 0 200px;
+}
+
+.thor {
+    color: #1f2937;
+    font-size: 24px;
+    text-align: end;
+    padding: 0 200px;
+}
+
+.containerwhite {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: white;
+}
+
+.containerblue {
+    border-radius: 10px;
+    padding: 40px;
+    width: 1000px;
+    height: 50px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.textcontainer {
+    flex-direction: row;
+}
+
+.boldwhite {
+    font-weight: bold;
+}
+
+#buttonsign {
+    justify-content: flex-end;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;    
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
